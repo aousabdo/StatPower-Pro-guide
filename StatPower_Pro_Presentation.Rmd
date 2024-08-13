@@ -6,6 +6,10 @@ output:
   word_document:
     toc: true
     toc_depth: 3
+  pdf_document:
+    toc: true
+    toc_depth: 3
+    latex_engine: xelatex
   html_document:
     toc: true
     toc_float: true
@@ -14,10 +18,6 @@ output:
     highlight: tango
     fig_width: 8
     fig_height: 6
-  pdf_document:
-    toc: true
-    toc_depth: 3
-    latex_engine: xelatex
 subtitle: A Comprehensive Guide
 ---
 
@@ -38,7 +38,7 @@ library(kableExtra)
 
 ### Overview of StatPower Pro
 
-StatPower Pro is an advanced interactive tool designed to enhance your understanding of statistical power, sample size calculation, and research design. As students in CLTR6501, this app will serve as a valuable resource in your journey to mastering the intricacies of biostatistics and its application in clinical research.
+StatPower Pro is an advanced interactive tool designed to enhance your understanding of statistical power, sample size calculation, and research design. This app will serve as a valuable resource in your journey to mastering the intricacies of biostatistics  and data science and its application in clinical research.
 
 ### Importance of Statistical Power and Sample Size in Research
 
